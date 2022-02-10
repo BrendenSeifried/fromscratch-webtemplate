@@ -8,7 +8,7 @@ export function renderPlaneData(plane) {
 
     p.textContent = plane.type;
     img.src = `./assets/${plane.id}.png`;
-    a.href = `./detail/?id=${plane.id}`;
+    a.href = `./planes/?id=${plane.id}`;
     
     div.append(p, img);
 
@@ -23,10 +23,10 @@ export function renderPlaneDetail(plane) {
     const speedEL = document.createElement('p');
     const nameEL = document.createElement('h2');
     const sizeEL = document.createElement('p');
-    // const breedEl = document.createElement('p');
-    // const ageAndBreedEl = document.createElement('div');
 
-    div.classList.add('plane-appended');
+
+
+    div.classList.add('plane-detail');
 
     nameEL.textContent = plane.type;
     nameEL.classList.add('type');
@@ -36,13 +36,6 @@ export function renderPlaneDetail(plane) {
 
     sizeEL.textContent = plane.size;    
     sizeEL.classList.add('size');
-
-    // breedEl.textContent = dog.breed;
-    // breedEl.classList.add('breed');
-
-    // ageAndBreedEl.classList.add('age-and-breed');
-
-    // ageAndBreedEl.append(ageEl, breedEl);
 
     img.src = `../assets/${plane.id}.png`;
     
