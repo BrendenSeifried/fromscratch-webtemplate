@@ -1,3 +1,17 @@
+1) Find older half baked code. 
+2) Make a supabase off of the airplanes listed in my import-display program.
+3) Follow adopt-a-dog to get outline of all files and folders needed.
+4) Import supabase and add export functions to fetch-utils.js
+5) Add export functions to render-utils.js adding an h2 for name two paragraphs for data and one image
+6) Create app.js 
+7) create detail.js and index.html in own folder 
+8) create window addeventlistener on details.js
+9) create div/list to indexhtml 
+10) CSS 
+11) prepare for superbowl.
+
+
+
 ## The Golden Rule: 
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
