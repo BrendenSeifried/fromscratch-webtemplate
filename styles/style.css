@@ -29,9 +29,15 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url('../assets/the-sky.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 main {
+    /* background-image: url('../assets/the-sky.jpg'); */
     display: flex;
     flex-direction: column;
     justify-content: center;
