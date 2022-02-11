@@ -72,6 +72,9 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    background-color: black;
+    width:fit-content;
+    border: bold 5px;
 }
 
 .gutter-right {
@@ -84,6 +87,9 @@ header img {
 
 p {
     margin: var(--gutter);
+    background-color: black;
+    width:fit-content;
+    border: bold 5px;
 }
   
 footer {

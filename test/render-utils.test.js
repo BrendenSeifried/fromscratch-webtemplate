@@ -34,9 +34,7 @@ test('renderPlaneData test', (expect) => {
     // Call the function you're testing and set the result to a const
     const actual = renderPlaneData({
 
-       
         
-
     });
 
     //Expect
