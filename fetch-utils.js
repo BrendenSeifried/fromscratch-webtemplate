@@ -3,13 +3,13 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 export async function getPlanes() {
-    const response = await client.from('Airplanes').select('*');
+    const response = await client.from('planes').select('*');
     console.log(response);
     return checkError(response);    
 }
 
 export async function getPlane(id) {
-    const planeID = await client.from('Airplanes').select('*').eq('id', id).single();
+    const planeID = await client.from('planes').select('*').eq('id', id).single();
     console.log(planeID);
     return checkError(planeID);    
 }

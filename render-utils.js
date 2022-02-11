@@ -21,15 +21,15 @@ export function renderPlaneDetail(plane) {
     const div = document.createElement('div');
     const img = document.createElement('img');
     const speedEL = document.createElement('p');
-    const nameEL = document.createElement('h2');
+    const typeEL = document.createElement('h2');
     const sizeEL = document.createElement('p');
 
 
 
     div.classList.add('plane-detail');
 
-    nameEL.textContent = plane.type;
-    nameEL.classList.add('type');
+    typeEL.textContent = plane.type;
+    typeEL.classList.add('type');
 
     speedEL.textContent = plane.speed;
     speedEL.classList.add('speed');
@@ -39,7 +39,7 @@ export function renderPlaneDetail(plane) {
 
     img.src = `../assets/${plane.id}.png`;
     
-    div.append(nameEL, img, speedEL, sizeEL);
+    div.append(typeEL, img, speedEL, sizeEL);
 
     return div;
 
