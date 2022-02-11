@@ -56,7 +56,7 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    /* border: solid 2px var(--color1); */
 }
 
 header {
@@ -94,4 +94,17 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+img {
+    height: 200px;
+
+}
+
+a {
+    color:rgb(255, 255, 255)
+}
+
+.main-section {
+    background-color: transparent;
 }

@@ -8,7 +8,8 @@ export function renderPlaneData(plane) {
 
     p.textContent = plane.type;
     img.src = `./assets/${plane.id}.png`;
-    a.href = `./planes/?id=${plane.id}`;
+    a.href = `./planesfolder/?id=${plane.id}`;
+   
     
     div.append(p, img);
 
