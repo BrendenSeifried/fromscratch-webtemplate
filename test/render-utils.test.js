@@ -28,13 +28,12 @@ test('renderPlaneDetail test', (expect) => {
 test('renderPlaneData test', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="plane-detail"><h2 class="type">Jumbo Jet.</h2><img src="../assets/1.png"><p class="speed">Medium speed intercontinental distance.</p><p class="size">Large.</p></div>`;
+    const expected = `<a href="./planesfolder/?id=undefined"><div class="plane-data"><p></p><img src="./assets/undefined.png"></div></a>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = renderPlaneData({
-        p: 'Jumbo Jet.'
-        a: './planesfolder/?id=1',
+
        
         
 
